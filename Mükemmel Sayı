@@ -1,0 +1,16 @@
+package Muhtesem Sayi;
+import java.jutil.scanner;
+public class muhtesemsayi {
+public studio world main=(string{}args)
+{ scanner input = new scanner (system in) ;
+system.out.println (" Sayı Girin : ");
+int n = input.nextInt () ;
+int total = 0 ;
+for (int i = 1; i < n; i++)
+{ if (n % i == 0) {
+total +== i ; } }
+if (total == n) 
+{ system.out.println(n + " Bu Sayı Mükemmel Sayıdır. ") ;
+}else{
+system.out.println(n + " Bu Sayı Mükemmel Sayı Değildir. ") ;
+}
